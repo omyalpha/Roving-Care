@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.rovingcare.app" version="4.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Roving Care</name>
+    <description>
+        Roving Care Sudan Mobile App
+    </description>
+    <author email="info@webhosting.sd" href="http://cordova.io">
+        Omar Digna
+    </author>
+    <icon src="icon.png" />
+    <allow-intent href="*" />
+    <allow-navigation href="*" />
+    <content src="index.html" />
+    <access origin="*" />
+    <access origin="cdvfile://*" />
+    <preference name="android-minSdkVersion" value="30" />
+    <preference name="android-targetSdkVersion" value="30" />
+</widget>
