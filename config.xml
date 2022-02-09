@@ -7,7 +7,6 @@
     <author email="info@webhosting.sd" href="http://cordova.io">
         Omar Digna
     </author>
-    <icon src="icon.png" />
 	<allow-intent href="*" />
 	<allow-navigation href="*" />
     <content src="index.html" />
@@ -18,11 +17,6 @@
 	
 	<plugin name="cordova-plugin-whitelist" spec="1.3.4" />
 	<plugin name="cordova-plugin-file" />
-	
-<!--	<preference name="AndroidPersistentFileLocation" value="Internal" />
-	<preference name="AndroidExtraFilesystems" value="files,files-external,documents,sdcard,root,cache,cache-external" />
--->
-	<!-- file download -->
 	<feature name="File">
       <param name="android-package" value="org.apache.cordova.FileUtils" />
 	  <param name="ios-package" value="CDVFile" />
@@ -31,26 +25,4 @@
       <param name="android-package" value="org.apache.cordova.FileTransfer" />
 	  <param name="ios-package" value="CDVFileTransfer" />
 	</feature>
-	<!--
-	<feature name="File">
-		<param name="ios-package" value="CDVFile" />
-	</feature>
-	<feature name="FileTransfer">
-		<param name="ios-package" value="CDVFileTransfer" />
-	</feature>
-	
-	<allow-intent href="http://*/*" />
-    <allow-intent href="https://*/*" />
-    <allow-intent href="tel:*" />
-    <allow-intent href="sms:*" />
-    <allow-intent href="mailto:*" />
-    <allow-intent href="geo:*" />
-    <platform name="android">
-        <allow-intent href="market:*" />
-    </platform>
-    <platform name="ios">
-        <allow-intent href="itms:*" />
-        <allow-intent href="itms-apps:*" />
-    </platform>
-	-->
 </widget>
