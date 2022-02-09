@@ -21,8 +21,10 @@
       <param name="android-package" value="org.apache.cordova.FileUtils" />
 	  <param name="ios-package" value="CDVFile" />
 	</feature>
+	<!--
 	<feature name="FileTransfer">
       <param name="android-package" value="org.apache.cordova.FileTransfer" />
 	  <param name="ios-package" value="CDVFileTransfer" />
 	</feature>
+	-->
 </widget>
